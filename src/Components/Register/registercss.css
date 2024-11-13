@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* label{
+    display: block;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 8px;
+    border-color: rgb(197, 206, 206);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+h1{
+    margin-bottom: 20px;
+}
+.Register{
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 100vh;   
+}
+.registerform{
+    width: 800px;
+    height: 450px;
+    background-color: #f0eeee;
+    border: 2px solid #a8a8a8;  /* border color and thickness */
+    border-radius: 8px;         /* optional rounded corners */
+    text-align: center;         /* center text inside the div */
+    padding: 20px;
+}
